@@ -8,7 +8,7 @@ var autoprefixer = require('autoprefixer')
 
 
 gulp.task('sass', function () {
-  return gulp.src('app/sass/**/*.+(scss|sass)')
+  return gulp.src('sass/**/*.+(scss|sass)')
     .pipe(sass.sync().on('error', sass.logError))
     .pipe(postcss([autoprefixer()]))
     .pipe(concat('style.css'))
@@ -17,11 +17,11 @@ gulp.task('sass', function () {
 });
 
 gulp.task('images', function () {
-  return gulp.src('app/img/**')
+  return gulp.src('img/**')
     .pipe(gulp.dest('build/img'));
 });
 gulp.task('fonts', function () {
-  return gulp.src('app/fonts/**')
+  return gulp.src('fonts/**')
     .pipe(gulp.dest('build/fonts'));
 });
 gulp.task('html', function () {
@@ -41,7 +41,7 @@ gulp.task('serve', function () {
     },
   });
 
-  gulp.watch('app/sass/**/*.+(scss|sass)', gulp.task('sass'));
+  gulp.watch('sass/**/*.+(scss|sass)', gulp.task('sass'));
   gulp.watch('*.html', gulp.task('html'));
 });
 

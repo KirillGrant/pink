@@ -1,9 +1,9 @@
 @import "../sass/variables";
 
 .about {
-  background-color: $bg-decor-light-grey;
+  background-color: #f2f2f2;
   min-height: 840px;
-  background-image: url("../img/");
+  background-image: url("../img/iphone-screen-mobile@1x.png");
   background-size: auto;
   background-repeat: no-repeat;
   background-position-x: 50%;
@@ -13,6 +13,27 @@
     content: "";
     display: block;
     border-top: 20px white solid;
-    border-right: 320px $bg-decor-light-grey solid;
+    border-right: 320px #f2f2f2 solid;
   }
+}
+
+.about__text {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 280px;
+  padding-bottom: 43px;
+  display: inline-block;
+  text-align: center;
+
+  h3 {
+    margin: 0;
+  }
+
+  p {
+    margin: 0;
+  }
+}
+
+.text--first {
+  padding-top: 120px;
 }
