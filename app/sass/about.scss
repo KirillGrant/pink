@@ -1,0 +1,18 @@
+@import "../sass/variables";
+
+.about {
+  background-color: $bg-decor-light-grey;
+  min-height: 840px;
+  background-image: url("../img/");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: 554px;
+
+  &::before {
+    content: "";
+    display: block;
+    border-top: 20px white solid;
+    border-right: 320px $bg-decor-light-grey solid;
+  }
+}

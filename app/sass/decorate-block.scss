@@ -1,0 +1,9 @@
+@import "../sass/variables";
+
+.decorate__block {
+  width: 0;
+  height: 0;
+  border-top: 20px white solid;
+  border-right: 320px $bg-decor-light-grey solid;
+  padding-bottom: 50px;
+}

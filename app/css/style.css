@@ -1,0 +1,291 @@
+body {
+  min-width: 100%;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "Open Sans", sans-serif; }
+
+.page__header {
+  width: 320px;
+  min-height: 734px;
+  margin: 0 auto;
+  background-color: #1d2631;
+  background-image: url("../img/back-mobile@1x.jpg.png");
+  background-size: 100%;
+  background-repeat: no-repeat; }
+
+.nav--lock {
+  display: none; }
+
+.header__menu {
+  height: 66px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
+  padding-left: 20px;
+  width: 280px;
+  background-color: rgba(29, 38, 49, 0.6); }
+
+.popup__btn-open {
+  border: none;
+  padding: 0;
+  background-color: initial; }
+
+.header__iphone-img {
+  padding-top: 109px; }
+
+.header__present {
+  padding-top: 28px;
+  padding-left: 20px;
+  padding-right: 20px; }
+  .header__present p {
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: lighter; }
+
+.download__app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 274px;
+  height: 50px;
+  background-color: initial;
+  border: 3px white solid;
+  border-radius: 50px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 18px; }
+
+.platform__icon {
+  width: 280px;
+  padding-top: 32px;
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin: 0; }
+  .platform__icon li:nth-child(1) {
+    padding-right: 37px; }
+  .platform__icon li:nth-child(2) {
+    padding-right: 37px; }
+
+@charset "UTF-8";
+.page__main {
+  width: 320px;
+  margin: 0 auto; }
+
+.main__title {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column; }
+  .main__title h2 {
+    display: inline-block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+    font-weight: lighter;
+    margin-bottom: 0px; }
+  .main__title h2:nth-child(1) {
+    margin-top: 46px; }
+
+.main__about {
+  background-color: #f2f2f2;
+  min-height: 840px;
+  background-image: url("../img/iphone-screen-mobile@1x.png");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: 554px; }
+  .main__about::before {
+    content: "";
+    display: block;
+    border-top: 20px white solid;
+    border-right: 320px #f2f2f2 solid; }
+
+.main__about--text {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 280px;
+  padding-bottom: 43px;
+  display: inline-block;
+  text-align: center; }
+  .main__about--text h3 {
+    margin: 0; }
+  .main__about--text p {
+    margin: 0; }
+
+.text--first {
+  padding-top: 120px; }
+
+.main__iphone--img {
+  display: flex;
+  justify-content: center; }
+
+.main__reviews {
+  width: 280px;
+  padding-right: 20px;
+  padding-left: 20px;
+  min-height: 205px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .main__reviews h4 {
+    padding-top: 50px;
+    text-align: center;
+    margin-top: 0; }
+  .main__reviews p {
+    text-align: center;
+    padding-bottom: 45px;
+    margin: 0; }
+
+.reviews__btn {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  padding-bottom: 50px; }
+
+.mobile__btn--style {
+  padding: 0;
+  width: 12px;
+  height: 12px;
+  background-color: #bec2c7;
+  border: 1px white solid;
+  border-radius: 50%;
+  outline: none;
+  margin-right: 20px; }
+
+.mobile__btn--active {
+  border: 3px #283645 solid;
+  border-radius: 50%; }
+
+.decorate__block {
+  width: 0;
+  height: 0;
+  border-top: 20px white solid;
+  border-right: 320px #f2f2f2 solid;
+  padding-bottom: 50px; }
+
+.main__offer {
+  width: 280px;
+  padding-right: 20px;
+  padding-left: 20px; }
+  .main__offer table {
+    border-collapse: collapse; }
+
+.offer__table--title {
+  position: relative;
+  width: 276px;
+  height: 98px;
+  background-color: #283645;
+  color: white;
+  text-align: center;
+  border: 3px #bec2c7 solid;
+  border-top: none;
+  border-bottom: none; }
+  .offer__table--title::before {
+    content: "";
+    width: 72px;
+    height: 72px;
+    background-image: url("../img/hit ribbon.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -1px;
+    left: -1px; }
+
+.offer__table--style {
+  width: 275px;
+  height: 60px;
+  color: #283645;
+  border: 3px #bec2c7 solid;
+  padding-left: 10px;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 30px; }
+
+.table__icon--yes {
+  background-image: url("../img/icon-yes.svg");
+  background-repeat: no-repeat;
+  background-size: 29px;
+  background-position-x: 90%;
+  background-position-y: 50%; }
+
+.table__icon--no {
+  background-image: url("../img/icon-no.svg");
+  background-repeat: no-repeat;
+  background-size: 29px;
+  background-position-x: 90%;
+  background-position-y: 50%; }
+
+.offer__btn {
+  width: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 101px;
+  background-color: #f2f2f2; }
+
+.main__contaсt {
+  min-height: 412px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: white; }
+  .main__contaсt a {
+    color: red;
+    font-size: 24px;
+    display: inline-block;
+    text-align: center; }
+
+.main__contact--title h3 {
+  font-size: 24px;
+  font-weight: lighter;
+  line-height: 26px;
+  margin-bottom: 45px;
+  margin-top: 50px; }
+
+.contact__h--style {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 13px; }
+
+.main__contact--phone-number h4 {
+  padding-left: 60px; }
+
+.main__contact--email h4 {
+  padding-left: 90px; }
+
+.main__contact--address h4 {
+  padding-left: 15px; }
+
+.main__map {
+  position: relative; }
+  .main__map::before {
+    content: "";
+    position: absolute;
+    border-top: 60px white solid;
+    border-left: 165px transparent solid;
+    border-right: 165px transparent solid;
+    top: 0;
+    z-index: 100; }
+  .main__map img:nth-child(1) {
+    position: absolute;
+    z-index: -1;
+    top: -420px; }
+  .main__map img:nth-child(2) {
+    position: absolute;
+    z-index: 10;
+    top: 115px;
+    left: 150px; }

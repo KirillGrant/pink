@@ -1,0 +1,12 @@
+@import "../sass/variables";
+
+.offer__option {
+  width: 275px;
+  height: 60px;
+  color: #283645;
+  border: 3px #bec2c7 solid;
+  padding-left: 10px;
+  text-transform: uppercase;
+  font-size: $font-14;
+  line-height: 30px;
+}

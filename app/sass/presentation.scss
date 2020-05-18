@@ -1,0 +1,29 @@
+@import "../sass/variables";
+
+.presentation {
+  padding-top: 28px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  p {
+    color: white;
+    text-align: center;
+    font-size: $font-14;
+    line-height: $line-height-24;
+    font-weight: $weight-light;
+  }
+}
+.presentation__download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 274px;
+  height: 50px;
+  background-color: initial;
+  border: 3px white solid;
+  border-radius: 50px;
+  text-decoration: none;
+  color: white;
+  font-weight: $weight-bold;
+  font-size: $font-18;
+}

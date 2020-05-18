@@ -1,0 +1,17 @@
+@import "../sass/variables";
+
+.contact__title {
+  h3 {
+    font-size: $font-24;
+    font-weight: $weight-light;
+    line-height: $line-height-24;
+    margin-bottom: 45px;
+    margin-top: 50px;
+  }
+}
+
+.contact__mini-title {
+  font-size: $font-18;
+  font-weight: $weight-bold;
+  margin-bottom: 13px;
+}

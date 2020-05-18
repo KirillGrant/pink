@@ -1,0 +1,24 @@
+@import "../sass/variables";
+
+.main__title {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+
+  h2 {
+    display: inline-block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: $font-24;
+    font-weight: lighter;
+    margin-bottom: 0;
+  }
+
+  h2:nth-child(1) {
+    margin-top: 46px;
+  }
+}
+
