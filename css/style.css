@@ -1,0 +1,115 @@
+.about {
+  background-color: #f2f2f2;
+  min-height: 840px;
+  background-image: url("../img/");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: 554px; }
+  .about::before {
+    content: "";
+    display: block;
+    border-top: 20px white solid;
+    border-right: 320px #f2f2f2 solid; }
+
+body {
+  min-width: 320px;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "Open Sans", sans-serif; }
+
+.contact__title h3 {
+  font-size: 24px;
+  font-weight: lighter;
+  line-height: 24px;
+  margin-bottom: 45px;
+  margin-top: 50px; }
+
+.contact__mini-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 13px; }
+
+.decorate__block {
+  width: 0;
+  height: 0;
+  border-top: 20px white solid;
+  border-right: 320px #f2f2f2 solid;
+  padding-bottom: 50px; }
+
+header {
+  width: 320px;
+  min-height: 734px;
+  margin: 0 auto;
+  background-color: #1d2631;
+  background-image: url("../img/");
+  background-size: 100%;
+  background-repeat: no-repeat; }
+
+.header__menu {
+  height: 66px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
+  padding-left: 20px;
+  width: 280px;
+  background-color: rgba(29, 38, 49, 0.6); }
+
+.main__title {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column; }
+  .main__title h2 {
+    display: inline-block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+    font-weight: lighter;
+    margin-bottom: 0; }
+  .main__title h2:nth-child(1) {
+    margin-top: 46px; }
+
+
+
+.offer__option {
+  width: 275px;
+  height: 60px;
+  color: #283645;
+  border: 3px #bec2c7 solid;
+  padding-left: 10px;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 30px; }
+
+.presentation {
+  padding-top: 28px;
+  padding-left: 20px;
+  padding-right: 20px; }
+  .presentation p {
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: lighter; }
+
+.presentation__download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 274px;
+  height: 50px;
+  background-color: initial;
+  border: 3px white solid;
+  border-radius: 50px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 18px; }
+
+
