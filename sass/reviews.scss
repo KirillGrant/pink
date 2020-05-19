@@ -1,0 +1,53 @@
+@import "../sass/variables";
+
+.reviews {
+  width: 280px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin: 0 auto;
+  min-height: 205px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h4 {
+    padding-top: 50px;
+    text-align: center;
+    margin-top: 0;
+  }
+
+  p {
+    text-align: center;
+    padding-bottom: 45px;
+    margin: 0;
+  }
+}
+
+.reviews__text{
+  list-style: none;
+  padding-left: 0;
+}
+
+.reviews__btn-list {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  padding-bottom: 50px;
+  padding-left: 15px;
+}
+
+.btn {
+  padding: 0;
+  width: 12px;
+  height: 12px;
+  background-color: #bec2c7;
+  border: 1px white solid;
+  border-radius: 50%;
+  outline: none;
+  margin-right: 20px;
+}
+
+.btn--active {
+  border: 3px #283645 solid;
+  border-radius: 50%;
+}

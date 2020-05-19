@@ -1,0 +1,30 @@
+@import "../sass/variables";
+.map {
+  position: relative;
+  margin: 0 auto;
+  width: 320px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    border-top: 60px white solid;
+    border-left: 165px transparent solid;
+    border-right: 165px transparent solid;
+    top: 0;
+    z-index: 100;
+  }
+
+  img:nth-child(1) {
+    position: absolute;
+    z-index: -1;
+    top: -120px;
+
+  }
+
+  img:nth-child(2) {
+    position: absolute;
+    z-index: 10;
+    top: 115px;
+    left: 150px;
+  }
+}

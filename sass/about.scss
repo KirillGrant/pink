@@ -1,0 +1,43 @@
+@import "../sass/variables";
+
+.about {
+  width: 320px;
+  padding-left: 0px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $bg-decor-light-grey;
+  min-height: 840px;
+  background-image: url("../img/iphone-screen-mobile@1x.png");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: 554px;
+  list-style: none;
+
+  &::before {
+    content: "";
+    border-top: 59px white solid;
+    border-right: 320px $bg-decor-light-grey solid;
+  }
+}
+.about__text--first{
+  padding-top: 25px;
+}
+.about__text {
+  h3{
+    width: 280px;
+    display: inline-block;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  p {
+    width: 280px;
+    display: inline-block;
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
